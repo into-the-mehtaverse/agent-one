@@ -1,16 +1,13 @@
 # Virtual environments
-**/venv/
-**/.venv/
-venv/
 .venv/
+venv/
+env/
 
 # Environment variables
-**/.env
 .env
 .env.local
 
 # Python
-**/__pycache__/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -27,14 +24,3 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
-
-# Test output
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
